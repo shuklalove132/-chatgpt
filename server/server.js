@@ -55,5 +55,5 @@ res.status(500).send({error})
 })
 
 // now the server should always listen to the request
-app.listen(5000,()=>{console.log('server is running on port http://localhost:5000');})
+app.listen(5000,()=>{console.log('https://basic-chatgpt.onrender.com');})
 
