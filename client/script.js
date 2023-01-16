@@ -99,7 +99,7 @@ chatContainer.scrollTop = chatContainer.scrollHeight;
 const meassageDiv = document.getElementById(uniqueId);
 loader(meassageDiv);
 //  fetch data from server that is bots response
-const response = await fetch('http://localhost:5000',{
+const response = await fetch('https://basic-chatgpt.onrender.com',{
   method:'POST',
   headers:{
     'Content-type':'application/json'
